@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div id="chat-header">
+    <button onclick="goBack()">← Kembali</button>
+    <h2 id="chat-with">Nama Lawan Chat</h2>
+  </div>
+  <div id="chat-box">
+    <!-- Pesan akan muncul di sini -->
+  </div>
+  <div id="chat-input">
+    <input type="text" id="message" placeholder="Ketik pesan..." />
+    <input type="file" id="imageInput" accept="image/*" />
+    <button onclick="sendMessage()">Kirim</button>
+  </div>
+
+  <script src="js/chat.js"></script>
+</body>
+</html>
